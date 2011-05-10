@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WallSwitcher</string>
+	<string name="auto">Automatique</string>
+	<string name="manuel">Timeline</string>
+	<string name="wallpaper">WallSwitcher</string>
+
+</resources>

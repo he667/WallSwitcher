@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bbd"
+    >
+
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+			android:orientation="vertical"
+		>
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		
+		<ImageView style="@style/TitleBarLogo" ></ImageView>
+	</LinearLayout>
+	
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+		
+		<Button style="@style/HomeButton"
+				android:id="@+id/home_btn_auto"
+                android:onClick="onAutomatique"
+                android:text="@string/auto">
+        </Button> 
+		<Button
+				style="@style/HomeButton" 
+				android:id="@+id/home_btn_manuel"
+                android:onClick="onManuel"
+                android:text="@string/manuel">
+        </Button>
+	
+	</LinearLayout>
+	</LinearLayout>
+	</ScrollView>
+</LinearLayout>
+
